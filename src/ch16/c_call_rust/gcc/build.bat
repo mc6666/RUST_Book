@@ -1,0 +1,1 @@
+gcc -o main main.c -L ../rust_lib2/target/release -lrust_lib2 -lpthread

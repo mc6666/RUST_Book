@@ -1,0 +1,2 @@
+F:\0_AI\Books\Rust實戰\src\ch15\c_call_rust_test\ConsoleApplication1\ConsoleA.8FAA8065\x64\Debug\ConsoleApplication1.vcxproj.AssemblyReference.cache
+F:\0_AI\Books\Rust實戰\src\ch15\c_call_rust\ConsoleApplication1\ConsoleA.8FAA8065\x64\Debug\ConsoleApplication1.vcxproj.AssemblyReference.cache
