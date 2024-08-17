@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  margin: 50px 0;
+}
+
+#canvas {
+  width: 320px;
+  height: 320px;
+  image-rendering: pixelated;
+}
+
+@media (min-width: 600px) {
+  #canvas {
+    width: 500px;
+    height: 500px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wasm-simple-test2",
+  "collaborators": [
+    "mc6666@gmail.com <mc6666@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_simple_test2_bg.wasm",
+    "wasm_simple_test2.js",
+    "wasm_simple_test2_bg.js",
+    "wasm_simple_test2.d.ts"
+  ],
+  "module": "wasm_simple_test2.js",
+  "types": "wasm_simple_test2.d.ts",
+  "sideEffects": [
+    "./wasm_simple_test2.js",
+    "./snippets/*"
+  ]
+}

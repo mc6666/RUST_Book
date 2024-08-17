@@ -1,0 +1,16 @@
+{
+  "name": "wasm_simple_test",
+  "version": "0.1.0",
+  "files": [
+    "wasm_simple_test_bg.wasm",
+    "wasm_simple_test.js",
+    "wasm_simple_test_bg.js",
+    "wasm_simple_test.d.ts"
+  ],
+  "module": "wasm_simple_test.js",
+  "types": "wasm_simple_test.d.ts",
+  "sideEffects": [
+    "./wasm_simple_test.js",
+    "./snippets/*"
+  ]
+}
