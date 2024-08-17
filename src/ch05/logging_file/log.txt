@@ -1,0 +1,15 @@
+[2024-01-31 09:27:57.135 ERROR src\main.rs:38] error message
+[2024-01-31 09:29:02.763 ERROR src\main.rs:39] error message
+[2024-01-31 09:29:11.190 ERROR src\main.rs:39] error message
+[2024-01-31 09:29:29.043 ERROR src\main.rs:39] error message
+[2024-01-31 09:29:51.067 ERROR src\main.rs:39] error message
+[2024-01-31 09:37:45.994 ERROR src\main.rs:40] error message
+[2024-01-31 09:38:02.336 ERROR src\main.rs:40] error message
+[2024-01-31 09:44:07.104 INFO src\main.rs:55] info message
+[2024-01-31 09:44:07.104 WARN src\main.rs:56] warn message
+[2024-01-31 09:44:07.104 ERROR src\main.rs:57] error message
+[2024-05-29 15:54:02.979 ERROR src\main.rs:57] error message
+[2024-05-29 15:54:36.570 DEBUG src\main.rs:54] debug message
+[2024-05-29 15:54:36.571 INFO src\main.rs:55] info message
+[2024-05-29 15:54:36.571 WARN src\main.rs:56] warn message
+[2024-05-29 15:54:36.571 ERROR src\main.rs:57] error message
