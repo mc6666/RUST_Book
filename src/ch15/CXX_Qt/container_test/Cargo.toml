@@ -1,0 +1,21 @@
+[package]
+name = "container_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.120"
+# cxx-qt = "0.6.0"
+# cxx-qt-lib = "0.6.0"
+
+[dependencies.cxx-qt]
+git = "https://github.com/KDAB/cxx-qt.git"
+
+[dependencies.cxx-qt-lib]
+git = "https://github.com/KDAB/cxx-qt.git"
+
+
+[build-dependencies]
+cxx-qt-build = { version = "0.6", features = [ "link_qt_object_files" ] }

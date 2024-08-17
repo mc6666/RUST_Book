@@ -1,0 +1,17 @@
+[package]
+name = "editor"
+version = "0.1.0"
+authors = ["Héctor Ramón Jiménez <hector@hecrj.dev>"]
+edition = "2021"
+publish = false
+
+
+[dependencies]
+rfd = "0.13"
+tokio = { version = "1.37.0", features = ["fs"] }
+
+
+[dependencies.iced]
+git = "https://github.com/iced-rs/iced.git"
+rev = "cdb18e610a72b4a025d7e1890140393adee5b087"
+features = ["highlighter", "tokio", "debug"]

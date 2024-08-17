@@ -1,0 +1,16 @@
+[package]
+name = "clock"
+version = "0.1.0"
+authors = ["Héctor Ramón Jiménez <hector0193@gmail.com>"]
+edition = "2021"
+publish = false
+
+[dependencies]
+iced_widget = { version = "0.12.3", features = ["canvas", "image"] }
+time = { version = "0.3", features = ["local-offset"] }
+
+[dependencies.iced]
+git = "https://github.com/iced-rs/iced.git"
+rev = "cdb18e610a72b4a025d7e1890140393adee5b087"
+features = ["canvas", "tokio", "debug"]
+
