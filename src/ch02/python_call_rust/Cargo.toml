@@ -1,0 +1,13 @@
+[package]
+name = "rusty-python"
+version = "0.1.0"
+authors = ["Davide Aversa <thek3nger@gmail.com>"]
+
+# We add `libc` dependency because we need type definitions which are
+# compatible with the C native format.
+[dependencies]
+libc = "0.2.0"
+
+[lib]
+name = "rustypython"
+crate-type = ["dylib"]
