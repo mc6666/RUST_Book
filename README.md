@@ -2,6 +2,9 @@
 <img src="cover_small.jpg" alt="drawing" width="200"/>
 
 ## 各章參考資料：參考資料.pdf。
+## 補充說明：
+#### 1.  第二章、第十七章所使用到的resnet18.ot，檔案過大，無法上傳至GitHub，請直接至 https://github.com/LaurentMazare/tch-rs/releases/download/mw/resnet18.ot 下載。
+
 
 ## 目錄：
 ### 第一篇為Rust基礎介紹，含第一~五章。
