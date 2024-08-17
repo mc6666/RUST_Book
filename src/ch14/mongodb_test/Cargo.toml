@@ -1,0 +1,13 @@
+[package]
+name = "mongodb_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.30"
+futures-util = "0.3.30"
+mongodb = { version = "2.8.2", features = ["tokio-runtime"] }
+serde = "1.0.203"
+tokio = { version = "1.38.0", features = ["full"] }
