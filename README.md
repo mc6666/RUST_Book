@@ -1,11 +1,11 @@
 ## [【Rust 最佳入門與實戰】](https://www.tenlong.com.tw/products/9786267383957?list_name=b-r7-zh_tw) 範例程式
 <img src="cover_small.jpg" alt="drawing" width="200"/>
-## 各章參考資料：參考資料.pdf
+
+## 各章參考資料：參考資料.pdf。
+
 ## 目錄：
 ### 第一篇為Rust基礎介紹，含第一~五章。
-
 #### 第一章Rust入門，介紹Rust語言特點、環境建置、套件管理工具(Cargo)及學習資源。
-
 #### 第二章Rust火力展示，預先展示Rust與Python/JavaScript整合，引用OpenCV套件進行影像處理，引用Polars套件進行資料分析(Data analysis)、機器學習/深度學習及資料庫存取等功能。
 #### 第三章介紹Rust基礎的資料型別，學習任何程式語言，都是從變數資料型別及控制流程開始，Rust也不例外，Rust資料型別定義非常嚴謹，可以精準定義變數所需的記憶體空間，另外，必須掌握變數所有權才可以掌握記憶體管理。
 #### 第四章介紹Rust流程控制，除了一般的分叉(if/else)、迴圈外，也會介紹例外管理機制，這方面與大部分的程式語言(Try/Catch)大相逕庭，需特別注意。
