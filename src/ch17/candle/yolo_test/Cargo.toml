@@ -1,0 +1,20 @@
+[package]
+name = "yolo_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ab_glyph = "0.2.25"
+anyhow = "1.0.82"
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
+clap = { version = "4.5.4", features = ["derive"] }
+hf-hub = "0.3.2"
+image = "0.25.1"
+imageproc = "0.24.0"
+tracing = "0.1.40"
+tracing-chrome = "0.7.2"
+tracing-subscriber = "0.3.18"

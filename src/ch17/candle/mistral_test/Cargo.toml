@@ -1,0 +1,19 @@
+[package]
+name = "mistral_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.86"
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.5.1" }
+candle-datasets = { git = "https://github.com/huggingface/candle.git", version = "0.5.1" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.5.1" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", version = "0.5.1" }
+clap = { version = "4.5.4", features = ["derive"] }
+hf-hub = "0.3.2"
+serde_json = "1.0.117"
+tokenizers = "0.19.1"
+tracing-chrome = "0.7.2"
+tracing-subscriber = "0.3.18"
