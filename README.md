@@ -4,7 +4,10 @@
 ## 各章參考資料：參考資料.pdf。
 ## 補充說明：
 #### 1.  第二章、第十七章所使用到的resnet18.ot，檔案過大，無法上傳至GitHub，請直接至 https://github.com/LaurentMazare/tch-rs/releases/download/mw/resnet18.ot 下載。
-
+#### 2.  第二章 2-7 須至 [PyTorch](https://pytorch.org/) 下載 LibTorch CPU版本，並解壓縮至 c:\libtorch，再依序執行下列指令：
+#### - set_env.bat
+#### - pretrained_models.exe resnet18.ot tiger.jpg
+#### 3. LibTorch GPU版本 在 Windows 作業系統執行出現錯誤訊息【torch_cuda.dll cusparseSDDMM error】，可能是NVidia顯卡版本過舊，可參照 https://github.com/pytorch/pytorch/issues/60854 說明。
 
 ## 目錄：
 ### 第一篇為Rust基礎介紹，含第一~五章。
